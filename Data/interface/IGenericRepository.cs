@@ -1,9 +1,13 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Business.Interfaces
+namespace Data.Interfaces
 {
-    public interface IBaseBusiness<T> where T : class
+    /// <summary>
+    /// Interfaz genérica para operaciones CRUD básicas
+    /// </summary>
+    /// <typeparam name="T">Tipo de entidad</typeparam>
+    public interface IGenericRepository<T> where T : class
     {
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);

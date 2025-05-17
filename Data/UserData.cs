@@ -17,8 +17,9 @@ namespace Data
 
         public override async Task<IEnumerable<User>> GetAllAsync()
         {
+
             return await _dbSet
-                .Include(u => u.Worker)
+
                 .Where(u => u.DeleteAt == null)
                 .ToListAsync();
         }
@@ -26,7 +27,7 @@ namespace Data
         public override async Task<User> GetByIdAsync(object id)
         {
             return await _dbSet
-                .Include(u => u.Worker)
+
                 .FirstOrDefaultAsync(u => u.Id == (int)id && u.DeleteAt == null);
         }
 

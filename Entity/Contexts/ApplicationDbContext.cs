@@ -7,7 +7,6 @@ using Entity.Model;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
-using Module = Entity.Model.Module;
 
 namespace Entity.Contexts
 {
@@ -21,38 +20,20 @@ namespace Entity.Contexts
             _configuration = configuration;
         }
 
-        // DBSETS
+        // DBSETS - Solo incluimos los que necesitamos
         public DbSet<Rol> Roles { get; set; }
-        public DbSet<Form> Forms { get; set; }
-        public DbSet<Module> Modules { get; set; }
-        public DbSet<FormModule> FormModules { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Worker> Workers { get; set; }
-        public DbSet<Login> Logins { get; set; }
-        public DbSet<WorkerLogin> WorkerLogins { get; set; }
-        public DbSet<Permission> Permissions { get; set; }
-        public DbSet<ActivityLog> ActivityLogs { get; set; }
         public DbSet<RolUser> RolUsers { get; set; }
 
-        public DbSet<RolFormPermission> RolFormPermissions { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relación User - Worker
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.Worker)
-                .WithOne(w => w.User)
-                .HasForeignKey<User>(u => u.WorkerId);
+            // Configuraciones específicas para Rol, User y RolUser
+            // Podemos añadir configuraciones específicas para estas entidades aquí
 
-            // Relación WorkerLogin - Worker
-            modelBuilder.Entity<WorkerLogin>()
-                .HasOne(wl => wl.Worker)
-                .WithMany(w => w.WorkerLogins)
-                .HasForeignKey(wl => wl.WorkerId)
-                .OnDelete(DeleteBehavior.Restrict);
-
+            // Aplicar configuraciones desde ensamblado
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
@@ -84,7 +65,7 @@ namespace Entity.Contexts
             // Lógica de auditoría si la deseas implementar
         }
 
-        // MÉTODOS CON DAPPER
+        // MÉTODOS CON DAPPER - Se mantienen igual ya que son utilidades genéricas
 
         public async Task<IEnumerable<T>> QueryAsync<T>(string text, object parameters = null, int? timeout = null, CommandType? type = null)
         {

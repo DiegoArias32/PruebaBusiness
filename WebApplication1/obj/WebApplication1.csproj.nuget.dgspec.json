@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Webapplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\webapplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\Business.csproj": {
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\Data.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\Data.csproj"
               },
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\Data.csproj": {
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -125,8 +125,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj"
               }
             }
           }
@@ -198,14 +198,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj": {
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -299,14 +299,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -364,14 +364,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Pictures\\ModelSecurity\\Webapplication1\\WebApplication1.csproj": {
+    "C:\\Users\\User\\Desktop\\ModelSecurity-master\\webapplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Pictures\\ModelSecurity\\Webapplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\webapplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Webapplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\webapplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Webapplication1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\webapplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -392,14 +392,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Business\\Business.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Business\\Business.csproj"
               },
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\User\\Pictures\\ModelSecurity\\Utilities\\Utilities.csproj"
+              "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ModelSecurity-master\\Utilities\\Utilities.csproj"
               }
             }
           }

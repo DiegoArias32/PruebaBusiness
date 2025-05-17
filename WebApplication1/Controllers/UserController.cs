@@ -1,4 +1,5 @@
 using Business;
+using Business.Implements; // Agregar esta línea
 using Entity.DTOs;
 using Entity.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -20,13 +21,12 @@ namespace WebApplication1.Controllers
                 logger,
                 "usuario",
                 dto => dto.Id,
-                new[] { "/Name", "/Email" } // Campos permitidos para PATCH (no incluimos Password para mayor seguridad)
+                new[] { "/Name", "/Email" } // Campos permitidos para PATCH
             )
         {
             _userBusiness = userBusiness ?? throw new ArgumentNullException(nameof(userBusiness));
         }
 
-        // No se requieren endpoints adicionales ya que GenericController
-        // proporciona los endpoints CRUD básicos
+        // No se requieren endpoints adicionales
     }
 }

@@ -1,4 +1,5 @@
 using Business;
+using Business.Implements; // Agregar esta línea
 using Entity.DTOs;
 using Entity.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -25,8 +26,5 @@ namespace WebApplication1.Controllers
         {
             _rolUserBusiness = rolUserBusiness ?? throw new ArgumentNullException(nameof(rolUserBusiness));
         }
-        
-        // No se requieren métodos adicionales ya que GenericController
-        // proporciona los endpoints CRUD básicos
     }
 }
